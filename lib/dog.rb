@@ -5,4 +5,5 @@ class Dog
   def name=(name)
     @name=name
   end
+Mutt = Dog.new
 end
