@@ -8,11 +8,8 @@ class Dog
   def name
     "{@name}".strip
   end
-  def initialize(breed)
-    @breed = breed = "Mutt"
-  end
   def breed=(breed)
-    @breed = breed
+    @breed = breed = "Mutt"
   end
   def breed
     "{@breed}".strip
